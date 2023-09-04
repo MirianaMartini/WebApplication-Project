@@ -1,3 +1,12 @@
+# Infos:
+The project involves the development of a React-based web application that communicates with a Node+Express server via an HTTP API. The database will be stored in a SQLite file. The interaction between the client and server will follow the "two servers" pattern and will be properly configured to support CORS. The React client will operate in "development" mode.
+
+The project structure includes a root directory with a README.md file and two subdirectories, one for the client and one for the server. The project can be started using the commands "cd server; nodemon index.js" and "cd client; npm start." The source code for the project will be delivered via GitHub, in a repository created with GitHub Classroom.
+
+The "node_modules" directories will not be included in the repository and can be rebuilt using the "npm install" command after the "git clone." Common libraries such as day.js and react-bootstrap will be used, which will be declared in the package.json and package-lock.json files so that they can be downloaded and installed with "npm install."
+
+As for user authentication, the project will use passport.js and session cookies
+
 # Project: Piano di Studi
 
 ## React Client Application Routes
